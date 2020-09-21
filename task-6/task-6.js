@@ -1,5 +1,4 @@
 const inputRef = document.querySelector("#validation-input");
-console.log(typeof Number(inputRef.dataset.length));
 
 function onInputBlur(event) {
   if (event.currentTarget.value.length === Number(inputRef.dataset.length)) {
