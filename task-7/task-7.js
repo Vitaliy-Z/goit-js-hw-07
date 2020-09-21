@@ -4,6 +4,7 @@ const ref = {
 };
 
 function onChangeFontSizeText(event) {
-  console.log(event.currentTarget.value);
   ref.textRef.style.fontSize = `${event.currentTarget.value}px`;
 }
+
+ref.inputRef.addEventListener("input", onChangeFontSizeText);
