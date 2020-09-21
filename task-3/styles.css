@@ -1,0 +1,12 @@
+ul {
+  display: flex;
+}
+
+.item {
+  list-style-type: none;
+  margin: 20px;
+}
+
+.imeg {
+  width: 200px;
+}
